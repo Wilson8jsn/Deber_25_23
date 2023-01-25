@@ -4,7 +4,6 @@ for (let i = 0;i < nums.length;i++ ) {
     if (M < nums [i]){
         M = nums[i];
     }
-    console.log(nums[i])
 }
 console.log("numero mayor es : " + M)
 
