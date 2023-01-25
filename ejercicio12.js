@@ -1,7 +1,11 @@
-let nums =[0,3,1,4,6,9];
-for(i = 0; i<nums.length; i++){
-    if(nums[i]>8)
-    console.log( nums[i]);
+let nums = [2,3,5,7,9]
+let M = 0;
+for (let i = 0;i < nums.length;i++ ) {
+    if (M < nums [i]){
+        M = nums[i];
+    }
+    console.log(nums[i])
 }
+console.log("numero mayor es : " + M)
 
 
